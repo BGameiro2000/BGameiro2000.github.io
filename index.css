@@ -23,7 +23,6 @@ body{
 
 #panel{
     width: 16%;
-    height: 95%;
     position: fixed;
     float: left;
     overflow: hidden;
