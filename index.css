@@ -13,15 +13,15 @@ body{
 }
 
 .box .container{
-    padding: 0.01em 16px;
+    padding: 5px 15px;
 }
 
-.box#content{
+#content{
     width: 82%;
     float: right;
 }
 
-.box#panel{
+#panel{
     width: 16%;
     height: 95%;
     position: fixed;
@@ -29,25 +29,29 @@ body{
     overflow: hidden;
 }
 
-.box#panel #author{
+#panel #author{
     display: inline-block;
     position: relative;
     top: -2%;
 }
 
-.box#panel #author #avatar{
+#panel #author #avatar{
     width: 100%;
 }
 
-.box#panel #author #avatar+#name{
+#panel #author #avatar+#name{
     position: absolute;
     bottom: -10%;
     left: 5%;
     font-size: 150%;
 }
 
-.box#panel #about{
+#panel #about{
     display: inline-block;
     position: relative;
     top: -2%;
 }
+
+#panel #about p{
+    margin: 10px auto;
+  }
