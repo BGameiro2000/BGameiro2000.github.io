@@ -55,6 +55,10 @@ body{
     margin: 10px auto;
 }
 
+#panel #about h3{
+    margin: 10px auto;
+}
+
 .icons{
-    margin-right: 16px !important;
+    margin-right: 20px !important;
 }

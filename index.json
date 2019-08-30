@@ -33,22 +33,14 @@
             }
         },
         "other":{
-            "Programming":{
-                "id":"Programming",
-                "class":"fas fa-code",
-                "content":[
-                    "Python 3<!--, D lang-->,<br><span title='HTML/CSS/JS/PHP/MariaDB'>Web development</span><!--, Haskell-->",
-                    "<span title='I use Arch btw'>ArchLinux</span>"
-                ]
-            },
-            "Languages":{
-                "id":"Languages",
-                "class":"fas fab-language",
-                "content":[
-                    "<span title='Native'>Portuguese</span>",
-                    "<span title='C2 level'>English</span>"
-                ]
-            }
+            "<i class='fas fa-code'></i> Programming":[
+                "Python 3<!--, D lang-->,<br><span title='HTML/CSS/JS/PHP/MariaDB'>Web development</span><!--, Haskell-->",
+                "<span title='I use Arch btw'>ArchLinux</span>"
+            ],
+            "Languages":[
+                "<span title='Native'>Portuguese</span>",
+                "<span title='C2 level'>English</span>"
+            ]
         }
     },
     "content":{

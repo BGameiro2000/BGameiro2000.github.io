@@ -27,16 +27,6 @@ function about(){
 function aboutPlus(){
     for (var title in Object.keys(myJSON.author.other)){
         document.write("<hr>");
-        document.write("<h3><i class='"+myJSON.author.other[title].class+" icons'>"+myJSON.author.other[title].id+":</h3>");
-        for (paragraph in myJSON.author.other[title]){
-            document.write("<p>"+myJSON.author.other[title][paragraph]+"</p>");
-        }
-    }
-}
-
-function aboutPlus1(){
-    for (var title in Object.keys(myJSON.author.other)){
-        document.write("<hr>");
         document.write("<h3>"+Object.keys(myJSON.author.other)[title]+":</h3>");
         for (var paragraph in Object.values(myJSON.author.other)[title]){
             document.write("<p>"+Object.values(myJSON.author.other)[title][paragraph]+"</p>");
