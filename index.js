@@ -19,12 +19,11 @@ function myAge(myDate){
 
 // Display content in side panel
 function aboutPlus(){
-    for (title in myJSON.author.about.other){
+    for (var title in Object.keys(myJSON.author.other)){
         document.write("<hr>");
-        document.write("<h3>"+title+":</h3>");
-        for (var i = 0; i < title.lenght; i++){
-            var obj = title[i];
-            document.write("<p>"+obj+"</p>");
+        document.write("<h3>"+Object.keys(myJSON.author.other)[title]+":</h3>");
+        for (var paragraph in Object.values(myJSON.author.other)[title]){
+            document.write("<p>"+Object.values(myJSON.author.other)[title][paragraph]+"</p>");
         }
     }
 }

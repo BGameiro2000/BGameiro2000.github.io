@@ -7,17 +7,17 @@
             "DoB":"6/9/2000",
             "degree":"<span title='Bachelor Degree + Master Degree'>Engineering physics</span> + <span title='Minor Degree'>Computer Science</span> @FCUL",
             "github":"BGameiro2000",
-            "paypal":"",
-            "other":{
-                "Programming":[
-                    "Python 3<!--, D lang-->,<br><span title='HTML/CSS/JS/PHP/MariaDB'>Web development</span><!--, Haskell-->",
-                    "<span title='I use Arch btw'>ArchLinux</span>"
-                ],
-                "Languages":[
-                    "<span title='Native'>Portuguese</span>",
-                    "<span title='C2 level'>English</span>"
-                ]
-            }
+            "paypal":""
+        },
+        "other":{
+            "Programming":[
+                "Python 3<!--, D lang-->,<br><span title='HTML/CSS/JS/PHP/MariaDB'>Web development</span><!--, Haskell-->",
+                "<span title='I use Arch btw'>ArchLinux</span>"
+            ],
+            "Languages":[
+                "<span title='Native'>Portuguese</span>",
+                "<span title='C2 level'>English</span>"
+            ]
         }
     },
     "content":{
