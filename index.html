@@ -19,19 +19,21 @@
 
                 <div id="author">
 
-                    <img id="avatar" src="https://avatars3.githubusercontent.com/u/33392539?s=460&v=4">
+                    <script>document.write("<img id='avatar' src="+myJSON.author.about.avatar+">")</script>
                     
-                    <p id="name">Bernardo<br>Gameiro</p>
+                    <p id="name"><script>document.write(myJSON.author.about.name)</script></p>
                     
                 </div>
 
                 <div class="container" id="about">
 
-                    <p>Location: Lisbon, Portugal</p>
+                    <p>Location: <script>document.write(myJSON.author.about.location)</script></p>
 
-                    <p>Age: <script>document.write(myAge())</script></p>
+                    <p>Age: <script>document.write(myAge(myJSON.author.about.DoB))</script></p>
 
-                    <p><span title="Bachelor's Degree + Master's Degree">Engineering physics</span> + <span title="Minor Degree">Computer Science</span> @FCUL</p>
+                    <p><script>document.write(myJSON.author.about.degree)</script></p>
+
+                    <script>aboutPlus()</script>
 
                     <hr>
 
