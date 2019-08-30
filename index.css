@@ -21,7 +21,8 @@ body{
 }
 
 #panel #author #name{
-    bottom: -10%;
+    position: absolute;
+    bottom: 0%;
     left: 5%;
     font-size: 150%;
 }
