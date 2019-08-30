@@ -19,7 +19,7 @@ function myAge(myDate){
 
 // Display content in side panel
 function about(){
-    //document.getElementById("avatar").source?=
+    document.getElementById("avatar").setAttribute("src", myJSON.author.id.avatar)
     document.getElementById("name").innerHTML=myJSON.author.id.name
     for (info in myJSON.author.about){
         document.write("<p id='"+myJSON.author.about[info].id+"'><i class='"+myJSON.author.about[info].class+" icons'></i>"+myJSON.author.about[info].content+"</p>");
