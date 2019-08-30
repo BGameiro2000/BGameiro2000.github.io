@@ -1,60 +1,27 @@
 body{
-    background-color: #000000;
+    background-color: #1E1E1E;
     color: #ffffff;
-}
-
-.box{
-    background-color: #22252a;
-    border-radius: 10px;
-}
-
-.box .container{
-    padding: 5px 15px;
-}
-
-#content{
-    width: 82%;
-    float: right;
+    margin: 0;
 }
 
 #panel{
-    width: 16%;
+    background-color: #333333;
     position: fixed;
-    float: left;
     overflow: hidden;
+    width: 20%;
+}
+
+#panel *{
+    width: 100%;
 }
 
 #panel #author{
     display: inline-block;
     position: relative;
-    top: -2%;
 }
 
-#panel #author #avatar{
-    width: 100%;
-}
-
-#panel #author #avatar+#name{
-    position: absolute;
+#panel #author #name{
     bottom: -10%;
     left: 5%;
     font-size: 150%;
-}
-
-#panel #about{
-    display: inline-block;
-    position: relative;
-    top: -2%;
-}
-
-#panel #about p{
-    margin: 10px auto;
-}
-
-#panel #about h3{
-    margin: 10px auto;
-}
-
-.icons{
-    margin-right: 20px !important;
 }
