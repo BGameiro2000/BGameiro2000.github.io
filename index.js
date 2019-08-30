@@ -1,9 +1,11 @@
+// Get JSON file
 var request = new XMLHttpRequest();
 request.open("GET", "./index.json", false);
 request.send(null);
 var myJSON = JSON.parse(request.responseText);
 alert (myJSON.result[0]);
 
+// Calculate my age
 function myAge(myDate){
     var today = new Date();
     var birthDate = new Date(myDate);
@@ -15,6 +17,7 @@ function myAge(myDate){
     return age;
 }
 
+// Display content in side panel
 function aboutPlus(){
     for (title in myJSON.author.about.other){
         document.write("<hr>");
