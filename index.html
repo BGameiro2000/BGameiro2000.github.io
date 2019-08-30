@@ -10,42 +10,40 @@
         <script src=./index.js></script>
         <script src="https://kit.fontawesome.com/5b6d7ec453.js"></script>
 
+        <meta name="subject" content="Personal Website">
         <script>document.write("<meta name='author' content="+myJSON.author.id.nick+">")</script>
         <script>document.write("<title>"+myJSON.author.id.nick+"'s Website</title>")</script>
         <script>document.write("<meta name='description' content='"+myJSON.author.id.nick+" website, cv and projects.'>")</script>
+        <script>document.write('<link rel="icon" sizes="192x192" href="'+myJSON.author.id.avatar+'">')</script>
 
     </head>
 
     <body>
 
-        <div class="container">
+        <aside class="box" id="panel">
 
-            <div class="box" id="panel">
+            <div id="author">
 
-                <div id="author">
-
-                    <script>document.write("<img id='avatar' src="+myJSON.author.id.avatar+">")</script>
+                <script>document.write("<img id='avatar' src="+myJSON.author.id.avatar+">")</script>
                     
-                    <p id="name"><script>document.write(myJSON.author.id.name)</script></p>
+                <p id="name"></p>
                     
-                </div>
-
-                <div class="container" id="about">
-
-                    <script>about()</script>
-
-                    <script>aboutPlus()</script>
-
-                </div>
-                
             </div>
 
-            <div class="box" id="content">
+            <div class="container" id="about">
 
-                <div style="padding: 200px 15px">
-                    <p>m</p>
-                </div>
+                <script>about()</script>
 
+                <script>aboutPlus()</script>
+
+            </div>
+                
+        </aside>
+
+        <div class="box" id="content">
+
+            <div style="padding: 200px 15px">
+                <p>m</p>
             </div>
 
         </div>
