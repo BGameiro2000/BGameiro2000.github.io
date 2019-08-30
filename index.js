@@ -18,7 +18,23 @@ function myAge(myDate){
 }
 
 // Display content in side panel
+function about(){
+    for (info in myJSON.author.about){
+        document.write("<p id='"+myJSON.author.about[info].id+"'><i class='"+myJSON.author.about[info].class+" icons'></i>"+myJSON.author.about[info].content+"</p>");
+    }
+}
+
 function aboutPlus(){
+    for (var title in Object.keys(myJSON.author.other)){
+        document.write("<hr>");
+        document.write("<h3><i class='"+myJSON.author.other[title].class+" icons'>"+myJSON.author.other[title].id+":</h3>");
+        for (paragraph in myJSON.author.other[title]){
+            document.write("<p>"+myJSON.author.other[title][paragraph]+"</p>");
+        }
+    }
+}
+
+function aboutPlus1(){
     for (var title in Object.keys(myJSON.author.other)){
         document.write("<hr>");
         document.write("<h3>"+Object.keys(myJSON.author.other)[title]+":</h3>");

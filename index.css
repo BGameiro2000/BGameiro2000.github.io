@@ -53,4 +53,8 @@ body{
 
 #panel #about p{
     margin: 10px auto;
-  }
+}
+
+.icons{
+    margin-right: 16px !important;
+}

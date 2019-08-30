@@ -8,6 +8,7 @@
         <meta name="author" content="BGameiro">
         <link rel="stylesheet" href="./index.css">
         <script src=./index.js></script>
+        <script src="https://kit.fontawesome.com/5b6d7ec453.js"></script>
 
     </head>
 
@@ -19,19 +20,15 @@
 
                 <div id="author">
 
-                    <script>document.write("<img id='avatar' src="+myJSON.author.about.avatar+">")</script>
+                    <script>document.write("<img id='avatar' src="+myJSON.author.id.avatar+">")</script>
                     
-                    <p id="name"><script>document.write(myJSON.author.about.name)</script></p>
+                    <p id="name"><script>document.write(myJSON.author.id.name)</script></p>
                     
                 </div>
 
                 <div class="container" id="about">
 
-                    <p>Location: <script>document.write(myJSON.author.about.location)</script></p>
-
-                    <p>Age: <script>document.write(myAge(myJSON.author.about.DoB))</script></p>
-
-                    <p><script>document.write(myJSON.author.about.degree)</script></p>
+                    <script>about()</script>
 
                     <script>aboutPlus()</script>
 
@@ -42,7 +39,9 @@
             <div class="box" id="content">
 
                 <div style="padding: 200px 15px">
+                    <script>aboutPlus()</script>
                     <p>m</p>
+                    <script>aboutPlus1()</script>
                 </div>
 
             </div>
