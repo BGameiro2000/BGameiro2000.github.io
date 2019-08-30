@@ -2,6 +2,7 @@ body{
     background-color: #1E1E1E;
     color: #ffffff;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 #panel{
@@ -10,7 +11,7 @@ body{
     overflow-x: hidden;
     width: 20%;
     height: 100%;
-    top: o;
+    top: 0;
     left: 0;
     direction: rtl;
 }
