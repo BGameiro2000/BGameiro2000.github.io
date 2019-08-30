@@ -17,10 +17,15 @@
                 "class":"fas fa-birthday-cake",
                 "content":"<script>document.write(myAge(myJSON.author.id.DoB))</script>"
             },
-            "degree":{
+            "degree1":{
                 "id":"location",
                 "class":"fas fa-university",
-                "content":"<span title='Bachelor Degree + Master Degree'>Engineering physics</span> + <span title='Minor Degree'>Computer Science</span> @FCUL"
+                "content":"<span title='Bachelor Degree + Master Degree @FCUL'>Engineering physics</span> @FCUL"
+            },
+            "degree2":{
+                "id":"location",
+                "class":"fas fa-university",
+                "content":"<span title='Minor Degree @FCUL'>Computer Science</span>"
             },
             "github":{
                 "id":"github",
