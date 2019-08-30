@@ -1,16 +1,39 @@
 {
     "author":{
-        "about":{
+        "id":{
             "name":"Bernardo<br>Gameiro",
             "avatar":"https://avatars3.githubusercontent.com/u/33392539?s=460&v=4",
-            "location":"Lisbon, Portugal",
-            "DoB":"6/9/2000",
-            "degree":"<span title='Bachelor Degree + Master Degree'>Engineering physics</span> + <span title='Minor Degree'>Computer Science</span> @FCUL",
-            "github":"BGameiro2000",
-            "paypal":""
+            "DoB":"6/9/2000"
+        },
+        "about":{
+            "location":{
+                "id":"location",
+                "class":"fas fa-location-arrow",
+                "content":"Lisbon, Portugal"
+            },
+            "age":{
+                "id":"age",
+                "class":"fas fa-birthday-cake",
+                "content":"<script>document.write(myAge(myJSON.author.id.DoB))</script>"
+            },
+            "degree":{
+                "id":"location",
+                "class":"fas fa-university",
+                "content":"<span title='Bachelor Degree + Master Degree'>Engineering physics</span> + <span title='Minor Degree'>Computer Science</span> @FCUL"
+            },
+            "github":{
+                "id":"github",
+                "class":"fab fa-github",
+                "content":"BGameiro2000"
+            },
+            "paypal":{
+                "id":"paypal",
+                "class":"fab fa-paypal",
+                "content":"BGameiro0906"
+            }
         },
         "other":{
-            "Programming":[
+            "<i class='fas fa-code'></i> Programming":[
                 "Python 3<!--, D lang-->,<br><span title='HTML/CSS/JS/PHP/MariaDB'>Web development</span><!--, Haskell-->",
                 "<span title='I use Arch btw'>ArchLinux</span>"
             ],

@@ -18,6 +18,12 @@ function myAge(myDate){
 }
 
 // Display content in side panel
+function about(){
+    for (info in myJSON.author.about){
+        document.write("<p id='"+myJSON.author.about[info].id+"'><i class='"+myJSON.author.about[info].class+" icons'></i>"+myJSON.author.about[info].content+"</p>");
+    }
+}
+
 function aboutPlus(){
     for (var title in Object.keys(myJSON.author.other)){
         document.write("<hr>");

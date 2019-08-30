@@ -53,4 +53,12 @@ body{
 
 #panel #about p{
     margin: 10px auto;
-  }
+}
+
+#panel #about h3{
+    margin: 10px auto;
+}
+
+.icons{
+    margin-right: 20px !important;
+}
