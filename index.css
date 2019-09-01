@@ -21,12 +21,12 @@ body{
     direction: ltr;
 }
 
-#panel #author{
+#panel #author-id{
     display: inline-block;
     position: relative;
 }
 
-#panel #author #name{
+#panel #author-id #name{
     position: absolute;
     bottom: 0%;
     left: 5%;

@@ -10,19 +10,21 @@
         <script src=./index.js></script>
         <script src="https://kit.fontawesome.com/5b6d7ec453.js"></script>
 
-        <meta name="subject" content="Personal Website">
-        <script>document.write("<meta name='author' content="+myJSON.author.id.nick+">")</script>
-        <script>document.write("<title>"+myJSON.author.id.nick+"'s Website</title>")</script>
-        <script>document.write("<meta name='description' content='"+myJSON.author.id.nick+" website, cv and projects.'>")</script>
-        <script>document.write('<link rel="icon" sizes="192x192" href="'+myJSON.author.id.avatar+'">')</script>
+        <meta name="subject" id="subject">
+        <meta name="author" id="author">
+        <title id="title"></title>
+        <meta name="description" id="description">
+        <link rel="icon" sizes="192x192" id="icon">
 
     </head>
+
+    <script>setMetadata()</script>
 
     <body>
 
         <aside id="panel">
 
-            <div id="author">
+            <div id="author-id">
 
                 <img id='avatar'>
                     

@@ -9,32 +9,32 @@
         "about":{
             "location":{
                 "id":"location",
-                "class":"fas fa-location-arrow",
+                "icon":"fas fa-location-arrow",
                 "content":"Lisbon, Portugal"
             },
             "age":{
                 "id":"age",
-                "class":"fas fa-birthday-cake",
+                "icon":"fas fa-birthday-cake",
                 "content":"<script>document.write(myAge(myJSON.author.id.DoB))</script>"
             },
             "degree1":{
                 "id":"location",
-                "class":"fas fa-university",
+                "icon":"fas fa-university",
                 "content":"<span title='Bachelor Degree + Master Degree @FCUL'>Engineering physics</span> @FCUL"
             },
             "degree2":{
                 "id":"location",
-                "class":"fas fa-university",
+                "icon":"fas fa-university",
                 "content":"<span title='Minor Degree @FCUL'>Computer Science</span>"
             },
             "github":{
                 "id":"github",
-                "class":"fab fa-github",
+                "icon":"fab fa-github",
                 "content":"BGameiro2000"
             },
             "paypal":{
                 "id":"paypal",
-                "class":"fab fa-paypal",
+                "icon":"fab fa-paypal",
                 "content":"BGameiro0906"
             }
         },
@@ -52,5 +52,18 @@
     "content":{
         "Projects":"./projects",
         "Certificates":"./certificates"
+    },
+    "document":{
+        "css":[
+            "./index.css"
+        ],
+        "author":"BGameiro",
+        "title":"BGameiro's website",
+        "description":"BGameiro's website",
+        "subject":"Personal website",
+        "icon":"https://avatars3.githubusercontent.com/u/33392539?s=460&v=4",
+        "tags":[
+            "Curriculum"
+        ]
     }
 }

@@ -17,7 +17,15 @@ function myAge(myDate){
     return age;
 }
 
-// Display content in side panel
+// Fetch content from JSON
+function setMetadata(){
+    document.getElementById("author").setAttribute("content", myJSON.document.author);
+    document.getElementById("subject").setAttribute("content", myJSON.document.subject);
+    document.getElementById("title").innerHTML=myJSON.document.title
+    document.getElementById("description").setAttribute("content", myJSON.document.description);
+    document.getElementById("icon").setAttribute("href", myJSON.document.icon);
+}
+
 function about(){
     document.getElementById("avatar").setAttribute("src", myJSON.author.id.avatar)
     document.getElementById("name").innerHTML=myJSON.author.id.name
