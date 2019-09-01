@@ -27,30 +27,33 @@ body{
     background-color: #1E1E1E;
     width: 50%;
     height: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
+/* left containers */ 
 #content #content1,
 #content #content3{
     float: left;
+    border-right: 1px solid #444444;
 }
 
+/* right containers */ 
 #content #content2,
 #content #content4{
     float: right;
+    border-left: 1px solid #444444;
 }
 
-#content1{
-    background-color: blue;
+/* top containers */ 
+#content #content1,
+#content #content2{
+    border-bottom: 1px solid #444444;
 }
 
-#content2{
-    background-color: #1E1E1E;
-}
-
-#content3{
-    background-color: #1E1E1E;
-}
-
-#content4{
-    background-color: green;
+/* bottom containers */ 
+#content #content3,
+#content #content4{
+    border-top: 1px solid #444444;
 }
