@@ -23,6 +23,8 @@ body{
     width: 80%;
     height: 100%;
     float: right;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .container{
@@ -40,16 +42,4 @@ body{
 .container:hover{
     -webkit-filter: brightness(1) grayscale(0);
     filter: brightness(1) grayscale(0);
-}
-
-/* left containers */ 
-#content #content1,
-#content #content3{
-    float: left;
-}
-
-/* right containers */ 
-#content #content2,
-#content #content4{
-    float: right;
 }
