@@ -64,7 +64,10 @@ body{
 }
 
 footer{
-    width: 100%;
+    width: 80%;
     height: 20px;
     background-color: #444444;
+    float: right;
+    bottom: 0;
+    text-align: center;
 }
