@@ -5,7 +5,6 @@ body{
 }
 
 #panel{
-    background-color: #333333;
     position: fixed;
     overflow: hidden;
     width: 20%;
@@ -17,6 +16,11 @@ body{
     width: 100%;
     padding-top: 100%;
     background-color: #555555;
+}
+
+#about{
+    width: 100%;
+    background-color: #333333;
 }
 
 #content{
