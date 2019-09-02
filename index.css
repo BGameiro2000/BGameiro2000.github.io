@@ -48,3 +48,8 @@ body{
     -webkit-filter: brightness(1) grayscale(0);
     filter: brightness(1) grayscale(0);
 }
+
+footer{
+    width: 100%;
+    background-color: #444444;
+}
