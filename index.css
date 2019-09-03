@@ -62,7 +62,9 @@ footer{
 
 /* General */
 
-a:link{
+a:link,
+a:visited,
+a:active{
     color: #c8c8c8;
 }
 
