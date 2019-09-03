@@ -10,15 +10,6 @@ body{
     width: 20%;
     height: 100%;
     float: left;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-direction: column;
-    -moz-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
 }
 
 #author-id{
@@ -30,19 +21,19 @@ body{
 #about{
     width: 100%;
     background-color: #333333;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
 }
 
-#content{
+#main{
     width: 80%;
     height: 100%;
     float: right;
+    overflow: hidden;
+}
+
+#content{
     display: flex;
     flex-flow: row wrap;
+    overflow: hidden;
 }
 
 .container{
@@ -64,20 +55,37 @@ body{
 }
 
 footer{
-    width: 80%;
     padding: 10px;
     background-color: #444444;
-    float: right;
-    bottom: 0;
     text-align: center;
 }
 
 /* General */
 
-a{
-
+a:link{
+    color: #c8c8c8;
 }
 
-a:{
+a:hover{
+    color: #5098B8;
+}
 
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-resize{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
