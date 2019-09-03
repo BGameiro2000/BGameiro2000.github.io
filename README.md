@@ -1,1 +1,1 @@
-BGameiro2000.github.io
+BGameiro.gitlab.io
