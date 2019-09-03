@@ -65,7 +65,7 @@ body{
 
 footer{
     width: 80%;
-    height: 20px;
+    padding: 10px;
     background-color: #444444;
     float: right;
     bottom: 0;
