@@ -74,10 +74,10 @@ footer{
 
 /* General */
 
-a{
-
+a:link{
+    color: #c8c8c8;
 }
 
-a:{
-
+a:hover{
+    color: #5098B8;
 }
