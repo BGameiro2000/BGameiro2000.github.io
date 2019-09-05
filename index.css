@@ -86,9 +86,12 @@ footer{
 /* General */
 
 a:link,
-a:visited,
-a:active{
+a:visited{
     color: #c8c8c8;
+}
+
+a:active{
+    color: #ffffff;
 }
 
 a:hover{
